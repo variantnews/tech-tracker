@@ -68,6 +68,8 @@ if WEBDRIVER_PATH:
     # from selenium.webdriver.firefox.options import Options
 
     options = Options()
+    # Note: forcing headless mode here but on systems that have GUI this can be enabled and user will have to quit each running instance
+    # check running processes to see if firefox is being orphaned
     options.headless = True
     # NOTE: adding firefox profile and dom disable before unload to see if it fixes orphaned firefox processes
     # running out of memory due to this
