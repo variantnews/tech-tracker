@@ -1,0 +1,197 @@
+[
+  {
+    "url": "https://www.amazon.com/MSI-GeForce-256-Bit-Architecture-Graphics/dp/B08KWLMZV4/ref=pd_rhf_eeolp_s_vtp_ses_clicks_nonshared_0_1/135-1981351-0435123?_encoding=UTF8&pd_rd_i=B08KWLMZV4&pd_rd_r=ac801556-d8e9-40a9-a3ab-abb4b105caf9&pd_rd_w=TVdX3&pd_rd_wg=br70B&pf_rd_p=749cddcb-b3dc-4bab-bcca-89adfb2f4e61&pf_rd_r=4GGQ7TM2EV4XND312VAP&psc=1&refRID=4GGQ7TM2EV4XND312VAP",
+    "tags": [
+      "Add to Cart",
+      "See All Buying Options"
+    ],
+    "alert": true,
+    "method": "GET_SELENIUM",
+    "parse": {
+      "type": "amazon",
+      "buy_url": [
+        "a",
+        "href",
+        "buybox-see-all-buying-choices-announce",
+        "https://amazon.com"
+      ]
+    },
+    "name": "Amazon MSI 3070",
+    "enabled": false
+  },
+  {
+    "url": "https://www.amazon.com/EVGA-10G-P5-3881-KR-GeForce-GAMING-Cooling/dp/B08HR6FMF3?ref_=ast_sto_dp",
+    "tags": [
+      "Add to Cart",
+      "See All Buying Options"
+    ],
+    "alert": true,
+    "method": "GET_SELENIUM",
+    "parse": {
+      "type": "amazon",
+      "buy_url": [
+        "a",
+        "href",
+        "buybox-see-all-buying-choices-announce",
+        "https://amazon.com"
+      ]
+    },
+    "name": "Amazon 3080 - *Currently unavailable",
+    "enabled": false
+  },
+  {
+    "url": "https://www.amazon.com/dp/B08HJQ182D",
+    "tags": [
+      "Add to Cart",
+      "See All Buying Options"
+    ],
+    "alert": true,
+    "method": "GET_SELENIUM",
+    "parse": {
+      "type": "amazon",
+      "buy_url": [
+        "a",
+        "href",
+        "buybox-see-all-buying-choices-announce",
+        "https://amazon.com"
+      ]
+    },
+    "name": "Amazon RTX 3090",
+    "enabled": false
+  },
+  {
+    "url": "https://www.amazon.com/EVGA-08G-P5-3755-KR-GeForce-Cooling-Backplate/dp/B08L8L71SM/ref=sr_1_1?dchild=1&keywords=rtx+3070&qid=1609187478&sr=8-1",
+    "tags": [
+      "Add to Cart",
+      "See All Buying Options"
+    ],
+    "alert": true,
+    "method": "GET_SELENIUM",
+    "parse": {
+      "type": "amazon",
+      "buy_url": [
+        "a",
+        "href",
+        "buybox-see-all-buying-choices-announce",
+        "https://amazon.com"
+      ]
+    },
+    "name": "Amazon RTX 3070",
+    "enabled": false
+  },
+  {
+    "url": "https://www.amazon.com/ASUS-Premium-GeForce-Keyboard-Included/dp/B083Z5P6TX/ref=pd_di_sccai_2?pd_rd_w=sbN5f&pf_rd_p=c9443270-b914-4430-a90b-72e3e7e784e0&pf_rd_r=99P5J4MYNE76S7A14C3T&pd_rd_r=63424742-21cf-4eee-be0b-bc3aab8ed54e&pd_rd_wg=Vw4Fz&pd_rd_i=B083Z5P6TX&psc=1",
+    "tags": [
+      "Add to Cart",
+      "See All Buying Options"
+    ],
+    "alert": true,
+    "method": "GET_SELENIUM",
+    "parse": {
+      "type": "amazon",
+      "buy_url": [
+        "a",
+        "href",
+        "buybox-see-all-buying-choices-announce",
+        "https://amazon.com"
+      ]
+    },
+    "name": "Amazon 3060",
+    "enabled": false
+  },
+  {
+    "url": "https://www.amazon.com/Xbox-One-S/dp/B08GGDT47N/ref=sr_1_2?dchild=1&keywords=xbox+series+s&qid=1609785952&sr=8-2",
+    "tags": [
+      "Add to Cart",
+      "See All Buying Options"
+    ],
+    "alert": true,
+    "method": "GET_SELENIUM",
+    "parse": {
+      "type": "amazon",
+      "buy_url": [
+        "a",
+        "href",
+        "buybox-see-all-buying-choices-announce",
+        "https://amazon.com"
+      ]
+    },
+    "name": "Amazon Xbox Series S",
+    "enabled": false
+  },
+  {
+    "url": "https://store.asus.com/us/item/202011AM190000001/ASUS-TUF-Gaming-NVIDIA-GeForce-RTX-3080-OC-Edition-Graphics-Card-%28PCIe-4.0%2C-10GB-GDDR6X%2C-HDMI-2.1%2C-DisplayPort-1.4a%2C-Dual-ball-Fan-Bearings%2C-Military-grade-Certification%2C-GPU-Tweak-II%29",
+    "tags": [
+      "Add to Cart"
+    ],
+    "alert": true,
+    "method": "GET_URLLIB",
+    "parse": {},
+    "name": "*ASUS-needs-more-testing-showing-add-to-cart-in-html-but-not-available-arrival-notice",
+    "enabled": false
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3080/",
+    "api": "https://api-prod.nvidia.com/direct-sales-shop/DR/products/en_us/USD/5438481700",
+    "tags": [
+      "Find Proper Value To Set Here, Check API"
+    ],
+    "alert": false,
+    "method": "GET_API",
+    "parse": {},
+    "name": "Nvidia 3080",
+    "enabled": false
+  },
+  {
+    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3090/",
+    "api": "https://api-prod.nvidia.com/direct-sales-shop/DR/products/en_us/USD/5438481600,5443202600",
+    "tags": [
+      "Find Proper Value To Set Here, Check API"
+    ],
+    "alert": false,
+    "method": "GET_API",
+    "parse": {},
+    "name": "Nvidia 3090",
+    "enabled": false
+  },
+  {
+    "url": "https://www.bestbuy.com/site/microsoft-xbox-series-s-512-gb-all-digital-console-disc-free-gaming-white/6430277.p?skuId=6430277",
+    "tags": [
+      "Add to Cart"
+    ],
+    "alert": true,
+    "method": "GET_REQUEST",
+    "parse": {
+      "type": "bestbuy"
+    },
+    "name": "BestBuy Xbox Series S - Need to check the Add To Cart and Sold Out tag to see what the text value is set to. There is a btn btn-disabled btn-lg btn-block add-to-cart-button class",
+    "enabled": false
+  },
+  {
+    "url": "https://www.bestbuy.com/site/microsoft-xbox-series-x-1tb-console-black/6428324.p?skuId=6428324",
+    "tags": [
+      "Add to Cart"
+    ],
+    "alert": true,
+    "method": "GET_REQUEST",
+    "parse": {
+      "type": "bestbuy"
+    },
+    "name": "BestBuy Xbox Series X",
+    "enabled": false
+  },
+  {
+    "url": "https://www.bestbuy.com/site/nintendo-switch-32gb-lite-turquoise/6257139.p?skuId=6257139",
+    "tags": [
+      "Add to Cart"
+    ],
+    "alert": false,
+    "method": "GET_REQUEST",
+    "parse": {
+      "type": "bestbuy",
+      "div": "fulfillment-add-to-cart-button"
+    },
+    "name": "BestBuy Nintendo Switch Lite Green",
+    "enabled": true
+  }
+]
